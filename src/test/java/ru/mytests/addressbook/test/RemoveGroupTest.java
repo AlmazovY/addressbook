@@ -5,10 +5,10 @@ import org.testng.annotations.Test;
 public class RemoveGroupTest extends TestBase {
     @Test
     public void testAddGroup() throws Exception {
-        gotoGroups();
-        selectCheckBox();
-        deleteGroup();
-        returnToGroup();
+        app.gotoGroups();
+        app.selectCheckBox();
+        app.deleteGroup();
+        app.returnToGroup();
     }
 
 }

@@ -7,11 +7,11 @@ public class AddGroupTest extends TestBase{
 
     @Test
     public void testAddGroup() throws Exception {
-        gotoGroups();
-        initGroup();
-        fillGroup(new GroupData("someGroup", "Head", "Foots"));
-        createGroup();
-        returnToGroup();
+        app.gotoGroups();
+        app.initGroup();
+        app.fillGroup(new GroupData("someGroup", "Head", "Foots"));
+        app.createGroup();
+        app.returnToGroup();
     }
 
 }

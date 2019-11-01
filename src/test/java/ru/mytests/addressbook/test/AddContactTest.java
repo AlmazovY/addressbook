@@ -7,10 +7,10 @@ public class AddContactTest extends TestBase {
 
     @Test
     public void testAddClass() throws Exception {
-        gotoNewContact();
-        fillContact(new ContactData("Name", "LastName", "Address", "88005553535", "e-mail"));
-        createContact();
-        returnToHPage();
+        app.gotoNewContact();
+        app.fillContact(new ContactData("Name", "LastName", "Address", "88005553535", "e-mail"));
+        app.createContact();
+        app.returnToHPage();
     }
 
 
