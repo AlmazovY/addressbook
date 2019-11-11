@@ -13,10 +13,14 @@ public class HelperBase {
     protected void click(By element) {
         driver.findElement(element).click();
     }
+    protected void comeback(By element) {
+        driver.findElement(element).click();
+    }
 
     protected void filler(String locator, String name) {
         click(By.name(locator));
         driver.findElement(By.name(locator)).clear();
         driver.findElement(By.name(locator)).sendKeys(name);
     }
+
 }

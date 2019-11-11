@@ -7,12 +7,12 @@ import ru.mytests.addressbook.model.GroupData;
 public class AddGroupTest extends TestBase {
 
     @Test
-    public void testAddGroup() throws Exception {
+    public void testAddGroup() {
         app.getNavigationHelper().gotoGroups();
         app.getGroupHelper().initGroup();
         app.getGroupHelper().fillGroup(new GroupData("someGroup", "Head", "Foots"));
         app.getGroupHelper().createGroup();
-        app.getGroupHelper().returnToGroup();
+        app.getGroupHelper().backToGroupPage();
     }
 
 }

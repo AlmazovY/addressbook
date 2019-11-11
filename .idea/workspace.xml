@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12288517-8025-4003-a559-a841aee63b6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/ContactHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/GroupHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/HelperBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/NavigationHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/SessionHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/UpdateGroupTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/model/ContactData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/model/ContactData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/model/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/model/GroupData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/ContactHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/GroupHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/HelperBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/NavigationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/SessionHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/AddContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/AddContactTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/AddGroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/AddGroupTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/RemoveContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/RemoveContactTest.java" afterDir="false" />
@@ -41,6 +38,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="C:/julia" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -189,8 +187,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.RemoveGroupTest" />
-        <item itemvalue="TestNG.AddGroupTest" />
         <item itemvalue="TestNG.AddContactTest" />
+        <item itemvalue="TestNG.AddGroupTest" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +210,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
