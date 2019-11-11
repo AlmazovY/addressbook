@@ -1,4 +1,4 @@
-package ru.mytests.addressbook;
+package ru.mytests.addressbook.test;
 
 import org.testng.annotations.Test;
 
@@ -7,7 +7,7 @@ public class RemoveContactTest extends TestBase {
     public void testAddGroup() throws Exception {
         app.returnToHPage();
         app.selectCheckBox();
-        app.deleteContact();
+        app.getContactHelper().deleteContact();
         app.acceptAlert();
     }
 

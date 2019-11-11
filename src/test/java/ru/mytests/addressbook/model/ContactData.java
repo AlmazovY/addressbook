@@ -1,4 +1,4 @@
-package ru.mytests.addressbook;
+package ru.mytests.addressbook.model;
 
 public class ContactData {
     private final String contactName;

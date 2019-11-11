@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12288517-8025-4003-a559-a841aee63b6b" name="Default Changelist" comment="" />
+    <list default="true" id="12288517-8025-4003-a559-a841aee63b6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/ContactHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/GroupHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/HelperBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/NavigationHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/SessionHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/model/ContactData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/model/ContactData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/model/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/model/GroupData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/AddContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/AddContactTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/AddGroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/AddGroupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/RemoveContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/RemoveContactTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/RemoveGroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/RemoveGroupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/TestBase.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,15 +35,17 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/addressbook" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RQNstggCCeaMtkdmQoQMHNPi66" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="extract.method.default.visibility" value="private" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.mytests.addressbook.appmanager" />
       <recent name="ru.mytests.addressbook" />
     </key>
   </component>
@@ -67,7 +85,7 @@
       <module name="addressbook" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="ru.mytests.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="ru.mytests.addressbook.AddContactTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.mytests.addressbook.test.AddContactTest" />
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -88,7 +106,7 @@
       <module name="addressbook" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="ru.mytests.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="ru.mytests.addressbook.AddGroupTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.mytests.addressbook.test.AddGroupTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
@@ -108,7 +126,7 @@
       <module name="addressbook" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="ru.mytests.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="ru.mytests.addressbook.RemoveContactTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.mytests.addressbook.test.RemoveContactTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
@@ -128,7 +146,7 @@
       <module name="addressbook" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="ru.mytests.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="ru.mytests.addressbook.RemoveGroupTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.mytests.addressbook.test.RemoveGroupTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />

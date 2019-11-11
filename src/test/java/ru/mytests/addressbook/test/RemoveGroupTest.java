@@ -1,14 +1,14 @@
-package ru.mytests.addressbook;
+package ru.mytests.addressbook.test;
 
 import org.testng.annotations.Test;
 
 public class RemoveGroupTest extends TestBase {
     @Test
     public void testAddGroup() throws Exception {
-        app.gotoGroups();
+        app.getNavigationHelper().gotoGroups();
         app.selectCheckBox();
-        app.deleteGroup();
-        app.returnToGroup();
+        app.getGroupHelper().deleteGroup();
+        app.getGroupHelper().returnToGroup();
     }
 
 }
