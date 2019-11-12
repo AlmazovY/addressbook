@@ -6,7 +6,7 @@ public class RemoveGroupTest extends TestBase {
     @Test
     public void testAddGroup() {
         app.getNavigationHelper().gotoGroups();
-        app.selectCheckBox();
+        app.getNavigationHelper().selectCheckBox();
         app.getGroupHelper().deleteGroup();
         app.getGroupHelper().backToGroupPage();
     }

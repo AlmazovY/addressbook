@@ -13,6 +13,7 @@ public class HelperBase {
     protected void click(By element) {
         driver.findElement(element).click();
     }
+
     protected void comeback(By element) {
         driver.findElement(element).click();
     }

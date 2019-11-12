@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12288517-8025-4003-a559-a841aee63b6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/UpdateGroupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/UpdateContactTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/ContactHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/GroupHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/HelperBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/NavigationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/appmanager/SessionHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/AddContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/AddContactTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/AddGroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/AddGroupTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/RemoveContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/RemoveContactTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/RemoveGroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/RemoveGroupTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mytests/addressbook/test/TestBase.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RemoveContactTest">
+  <component name="RunManager" selected="TestNG.UpdateGroupTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -160,6 +157,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UpdateContacttest" type="TestNG">
+      <module name="addressbook" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ru.mytests.addressbook.test" />
+      <option name="MAIN_CLASS_NAME" value="ru.mytests.addressbook.test.UpdateContactTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateGroupTest" type="TestNG">
+      <module name="addressbook" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ru.mytests.addressbook.test" />
+      <option name="MAIN_CLASS_NAME" value="ru.mytests.addressbook.test.UpdateGroupTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -180,6 +217,8 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.RemoveContactTest" />
+      <item itemvalue="TestNG.UpdateGroupTest" />
+      <item itemvalue="TestNG.UpdateContacttest" />
       <item itemvalue="TestNG.RemoveGroupTest" />
       <item itemvalue="TestNG.AddContactTest" />
       <item itemvalue="TestNG.AddGroupTest" />

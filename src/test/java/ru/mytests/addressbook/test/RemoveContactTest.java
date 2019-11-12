@@ -4,11 +4,11 @@ import org.testng.annotations.Test;
 
 public class RemoveContactTest extends TestBase {
     @Test
-    public void testRemoveContact(){
+    public void testRemoveContact() {
         app.getContactHelper().backToHomePage();
-        app.selectCheckBox();
+        app.getNavigationHelper().selectCheckBox();
         app.getContactHelper().deleteContact();
-        app.acceptAlert();
+        app.getNavigationHelper().acceptAlert();
         app.getContactHelper().backToHomePage();
     }
 

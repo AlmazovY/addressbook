@@ -7,7 +7,7 @@ public class UpdateGroupTest extends TestBase {
     @Test
     public void testUpdateGroup() {
         app.getNavigationHelper().gotoGroups();
-        app.selectCheckBox();
+        app.getNavigationHelper().selectCheckBox();
         app.getGroupHelper().editGroup();
         app.getGroupHelper().fillGroup(new GroupData("newName", "newHeader", "newFooter"));
         app.getGroupHelper().updateGroup();

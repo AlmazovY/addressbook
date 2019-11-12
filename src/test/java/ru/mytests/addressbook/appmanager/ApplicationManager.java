@@ -29,12 +29,6 @@ public class ApplicationManager {
         sessionHelper.login("admin", "secret");
     }
 
-
-    public void returnToHPage() {
-        driver.findElement(By.linkText("home")).click();
-    }
-
-
     public void exit() {
         String verificationErrorString = verificationErrors.toString();
         if (!"".equals(verificationErrorString)) {
@@ -42,14 +36,6 @@ public class ApplicationManager {
         }
     }
 
-
-    public void selectCheckBox() {
-        driver.findElement(By.name("selected[]")).click();
-    }
-
-    public void acceptAlert() {
-        driver.switchTo().alert().accept();
-    }
 
     public GroupHelper getGroupHelper() {
         return groupHelper;

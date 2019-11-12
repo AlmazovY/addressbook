@@ -19,16 +19,24 @@ public class ContactHelper extends HelperBase {
         filler("email", contactData.getContactMail());
     }
 
-
+    public void editContact() {
+        click(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='import'])[1]/following::img[2]"));
+    }
 
     public void deleteContact() {
         click(By.xpath(".//*[@value='Delete']"));
     }
+
     public void backToHomePage() {
         comeback(By.linkText("home"));
     }
+
     public void createContact() {
         click(By.name("submit"));
+    }
+
+    public void updateContact() {
+        click(By.name("update"));
     }
 }
 

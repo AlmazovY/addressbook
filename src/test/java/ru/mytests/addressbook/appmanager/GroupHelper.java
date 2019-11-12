@@ -39,6 +39,6 @@ public class GroupHelper extends HelperBase {
     }
 
     public void backToGroupPage() {
-        comeback(By.linkText("group_page"));
+        comeback(By.linkText("group page"));
     }
 }
