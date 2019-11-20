@@ -7,11 +7,9 @@ import ru.mytests.addressbook.model.ContactData;
 public class AddContactTest extends TestBase {
 
     @Test
-    public void testAddClass() {
+    public void testAddContact() {
         app.getNavigationHelper().gotoNewContact();
-        app.getContactHelper().fillContact(new ContactData("Name", "LastName", "Address", "88005553535", "e-mail"));
-        app.getContactHelper().createContact();
-        app.getContactHelper().backToHomePage();
+        app.getContactHelper().addContact(new ContactData("Name", "Lastname", "Address", "88005553535", "Mail@mail.ru"));
     }
 
 

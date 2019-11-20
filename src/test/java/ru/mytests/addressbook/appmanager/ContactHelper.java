@@ -28,7 +28,7 @@ public class ContactHelper extends HelperBase {
     }
 
     public void backToHomePage() {
-        comeback(By.linkText("home"));
+        click(By.linkText("home"));
     }
 
     public void createContact() {
@@ -37,6 +37,16 @@ public class ContactHelper extends HelperBase {
 
     public void updateContact() {
         click(By.name("update"));
+    }
+
+    public boolean isContactExist() {
+        return isElementPresent(By.name("selected[]"));
+    }
+
+    public void addContact(ContactData contactData) {
+        fillContact(contactData);
+        createContact();
+        backToHomePage();
     }
 }
 
